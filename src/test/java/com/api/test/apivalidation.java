@@ -24,12 +24,12 @@ public class apivalidation {
         Response response = get(URL);
         System.out.println("Response from restapi is -----> " + response.asString());
 
-        response.then().body("employee_name", hasItems("imam", "50909"));
+//        response.then().body("employee_name", hasItems("imam", "50909"));
 
     }
 
-//    public static void main(String args[]){
-//        getBody();
-//    }
+    public static void main(String args[]){
+        getBody();
+    }
 }
 
