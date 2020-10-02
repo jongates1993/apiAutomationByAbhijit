@@ -54,7 +54,8 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!-- TestNG suite XML files -->
-                        <suiteXmlFile>TestRun.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>TestRun.xml</suiteXmlFile>-->
+                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
