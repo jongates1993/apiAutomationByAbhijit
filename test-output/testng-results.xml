@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="1399" started-at="2020-10-02T13:28:34Z" finished-at="2020-10-02T13:28:35Z">
+    <groups>
+    </groups>
+    <test name="restAPITest" duration-ms="1399" started-at="2020-10-02T13:28:34Z" finished-at="2020-10-02T13:28:35Z">
+      <class name="com.api.test.apivalidation">
+        <test-method status="PASS" signature="getBody()[pri:0, instance:com.api.test.apivalidation@2d209079]" name="getBody" duration-ms="1379" started-at="2020-10-02T13:28:34Z" finished-at="2020-10-02T13:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBody -->
+      </class> <!-- com.api.test.apivalidation -->
+    </test> <!-- restAPITest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
