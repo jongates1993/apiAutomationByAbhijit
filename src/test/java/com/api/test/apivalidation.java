@@ -41,7 +41,7 @@ public class apivalidation {
     @Test
     @Parameters({"Method","baseURL"})
     public void restExecute(ITestContext itc, String Method, String baseURL) throws IOException {
-//        String method = itc.getCurrentXmlTest().getSuite().getParameter("Method");
+//       This is main method
         FileReader reader=new FileReader("src/main/resources/apiConfig.properties");
 
         Properties p=new Properties();
