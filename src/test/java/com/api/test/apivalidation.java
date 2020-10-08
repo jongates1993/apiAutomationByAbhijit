@@ -41,7 +41,7 @@ public class apivalidation {
     @Test
     @Parameters({"Method","baseURL"})
     public void restExecute(ITestContext itc, String Method, String baseURL) throws IOException {
-//       This is main method
+//       This is main method and entry point to suite execution
         FileReader reader=new FileReader("src/main/resources/apiConfig.properties");
 
         Properties p=new Properties();
