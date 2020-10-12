@@ -9,15 +9,20 @@ import com.google.gson.JsonParser;
 public class validator {
     JsonParser parser = new JsonParser();
 
-    public void validateResponse(Response res){
+    public void validateResponse(Response res, int code){
         System.out.println("----------------Validating Response-----------------");
-        verifyStatusCode(res);
+        verifyStatusCode(res, code);
         System.out.println("----------------Validation Done-----------------");
     }
 
     public void verifyStatusCode(Response res){
         int statusCode = res.getStatusCode();
         Assert.assertEquals(statusCode, 200);
+    }
+
+    public void verifyStatusCode(Response res, int code){
+        int statusCode = res.getStatusCode();
+        Assert.assertEquals(statusCode, code);
     }
 
     public void verifyStatus(Response res){
