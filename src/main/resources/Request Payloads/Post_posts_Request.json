@@ -1,5 +1,5 @@
 {
-  "title": "foo1",
-  "body": "bar1",
+  "title": "MyTitle",
+  "body": "This is Body of the post",
   "userId": 1
 }
